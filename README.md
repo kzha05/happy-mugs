@@ -1,1 +1,1 @@
-# mugify
+# happy mugs
