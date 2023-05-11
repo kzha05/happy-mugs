@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 html{
     font-size: 62.5%;
  }
@@ -44,6 +48,11 @@ header{
 
 .products-tab{
     margin-right: 10rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(69, 69, 69);
 }
 
 .mug-big-text{
@@ -143,22 +152,154 @@ header{
 .four-mugs-home{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.four-mugs-img1{
+    overflow: hidden;
+    width: 30.7rem;
     aspect-ratio: 1;
-    width: 50rem;
 }
 
 .four-mugs-img{
-    display: flex;
-    flex-direction: row;
-    width: 50rem;
-    height: 50rem;
     object-fit: contain;
+    object-position: center;
+    height: 140%;
+    transform: translateY(-10%);
 }
 
-.four-mugs-home1{
+.four-mugs-img2{
+    object-fit: contain;
+    object-position: center;
+    height: 140%;
+    transform: translate(-20%, -18%);
+}
+
+.round-logo{
+    width: 8rem;
+    aspect-ratio: 1;
+}
+
+.instructions{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 10rem;
+}
+
+.step13{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50rem;
-    height: 50rem;
-    transform: translateY(-10%);
+    height: 30rem;
+}
+
+.step24{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 30rem;
+}
+
+.mugs-deal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30rem;
+}
+
+.mugs-deal-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    width: 40rem;
+}
+
+.mugs-deal-text > h2{
+    margin-bottom: 7rem;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.three-mugs-img{
+    display: flex;
+    width: 50rem;
+    aspect-ratio: 1;
+}
+
+.review-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+    margin-top: 5rem;
+}
+
+.review-card-box{
+    align-items: center;
+    width: 30rem;
+    height: 40rem;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.2rem;
+    margin-bottom: 5rem;
+}
+
+.review-card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    width: 15rem;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    border-radius: 50%;
+}
+
+.stars{
+    width: 17rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.review-card-text > h2{
+    font-weight: bold;
+    font-size: 2rem;
+    width: 20rem;
+}
+
+.review-card-text >h3{
+    margin-top: 1rem;
+    width: 20rem;
+}
+
+footer{
+    background-color: #f8e4dc;
+    color: rgb(69, 69, 69);
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content: right;
+    position: relative;
+    align-items: center;
 }
