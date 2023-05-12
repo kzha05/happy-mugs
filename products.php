@@ -16,16 +16,13 @@
             <a href="products.php"> <h2 class="products-tab">PRODUCTS</h2></a> 
         </header>
     </section>
-    <?php
-    include 'db_connection.php';
 
-    $conn = OpenCon();
-
-    echo "Connected Successfully";
-
-    CloseCon($conn);
-
-    ?>
+    <section class="template">
+        <?php
+        include 'connect_db.php';
+        
+        ?>
+    </section>
     <footer>
         <p>made by diya jawalapersad</p>
     </footer>

@@ -27,7 +27,7 @@ header{
     background-color: #f8e4dc;
     color: rgb(69, 69, 69);
     width: 100%;
-    height: 5rem;
+    height: 6rem;
     display: flex;
     flex-direction: row;
     z-index: 2;
@@ -191,16 +191,7 @@ a{
     gap: 10rem;
 }
 
-.step13{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50rem;
-    height: 30rem;
-}
-
-.step24{
+.steps{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -302,4 +293,46 @@ footer{
     justify-content: right;
     position: relative;
     align-items: center;
+}
+
+footer > p{
+    margin-right: 1rem;
+}
+
+.template{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    margin: 5rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 37rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.card-img-wrap{
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.card-img{
+    object-fit: contain;
+    object-position: center;
+}
+
+.card > h2{
+    margin-bottom: 1rem;
+}
+
+.card > h3{
+    color: rgb(122, 122, 122);
 }
