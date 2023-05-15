@@ -17,12 +17,12 @@
         </header>
     </section>
 
-    <section class="template">
-        <?php
-        include 'connect_db.php';
-        
-        ?>
-    </section>
+        <section class="template">
+            <?php
+            include 'connect_db.php';
+            
+            ?>
+        </section>
     <footer>
         <p>made by diya jawalapersad</p>
     </footer>

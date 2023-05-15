@@ -165,17 +165,10 @@ a{
 }
 
 .four-mugs-img{
+    width: 100%;
+    aspect-ratio: 1;
     object-fit: contain;
     object-position: center;
-    height: 140%;
-    transform: translateY(-10%);
-}
-
-.four-mugs-img2{
-    object-fit: contain;
-    object-position: center;
-    height: 140%;
-    transform: translate(-20%, -18%);
 }
 
 .round-logo{
@@ -335,4 +328,48 @@ footer > p{
 
 .card > h3{
     color: rgb(122, 122, 122);
+}
+
+.begin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30rem;
+    margin: 5rem;
+    gap: 7rem;
+}
+
+.desc-img-wrap{
+    width:  60rem;
+    aspect-ratio: 1;
+    overflow: hidden;
+}
+
+.desc-img{
+    width: 100%;
+}
+
+.begin-text{
+    font-size: 3rem;
+}
+
+.begin-text > h2{
+    margin-bottom: 2rem;
+}
+
+.product-desc{
+    display: flex;
+    margin: 5rem;
+    font-size: 1.5rem;
+    padding-left: 5rem;
+}
+
+.product-desc > h3{
+    width: 75rem;
+    height: 35rem;
+} 
+
+.button > a{
+    color: white;
 }
