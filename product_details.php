@@ -29,11 +29,17 @@
                 include 'productprice.php'
             ?>
         </div>
+        <div class="cart-wrap">
+            <img class="cart" src="img/shopping-cart.webp" alt="shopping-cart">
+        </div>
     </section>
     <section class="product-desc">
         <?php
             include 'productdesc.php'
         ?>
+        <button id="cart-button">
+            Add to cart
+        </button>
     </section>
     <footer>
         <p>made by diya jawalapersad</p>
