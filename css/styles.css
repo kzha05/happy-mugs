@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+button:hover{
+    cursor: pointer !important;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -368,6 +372,11 @@ footer > p{
 
 .begin-text > h2{
     margin-bottom: 2rem;
+    color: black;
+}
+
+.begin-text >h3{
+    color: rgb(122, 122, 122);
 }
 
 .cart-wrap{
@@ -412,6 +421,24 @@ footer > p{
     color: white;
 }
 
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 30rem;
+    background: #f6f6f6;
+    position: fixed;
+    top: 34%;
+    left: 34%;
+    box-shadow: 0 0 5rem 0 rgba(0, 0, 0, 0.3);
+    color: #ddbfb3;
+    font-size: 4rem;
+    border-radius: 0.5rem;
+    display: none;
+    z-index: 10;
+}
+
  .page-img-wrap{
     width: 100%;
     height: 100%;
@@ -424,4 +451,245 @@ footer > p{
     object-fit: contain;
     width: 100%;
     height: 100%;
+}
+
+.circle-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 10rem;
+    margin-right: 7rem;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    aspect-ratio: 1;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1rem;
+    border-radius: 50%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.circle-img{
+    width: 5rem;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.shoppingcart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75rem;
+    height: 20rem;
+    border-top: 0.2rem solid rgba(0, 0, 0, 0.238);
+    border-bottom: 0.2rem solid rgba(0, 0, 0, 0.238);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 2rem;
+}
+
+.product-img-wrap{
+    width: 20rem;
+    aspect-ratio: 1;
+    overflow: hidden;
+    margin-right: 5rem;
+}
+
+.product-img{
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+}
+
+.product-text{
+    width: 40%;
+}
+
+.product-text > h2{
+    font-size: 2.5rem;
+    color: black;
+}
+
+.product-text > h3{
+    font-size: 1.5rem;
+    color: rgb(122, 122, 122);
+}
+
+#bin{
+    width: 4rem;
+    aspect-ratio: 1;
+    overflow: hidden;
+    margin-right: 3rem;
+    border-style: none;
+    background: white;
+}
+
+.bin-img{
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+}
+
+.modal-error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 30rem;
+    background: #f6f6f6;
+    position: fixed;
+    top: 34%;
+    left: 34%;
+    box-shadow: 0 0 5rem 0 rgba(0, 0, 0, 0.3);
+    color: #ddbfb3;
+    font-size: 4rem;
+    border-radius: 0.5rem;
+    display: none;
+    z-index: 10;
+}
+
+.complete-order{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+    margin-bottom: 2rem;
+}
+
+#pay-button{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 17rem;
+    height: 7rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+    border: none;
+}
+
+.complete-order > h2{
+    font-size: 3rem;
+}
+
+.modal-error2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 30rem;
+    background: #f6f6f6;
+    position: fixed;
+    top: 34%;
+    left: 34%;
+    box-shadow: 0 0 5rem 0 rgba(0, 0, 0, 0.3);
+    color: #ddbfb3;
+    font-size: 4rem;
+    border-radius: 0.5rem;
+    display: none;
+    z-index: 10;
+}
+
+@media only screen and (max-width: 1162px){
+        .desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .strawberry-mug-img1{
+        margin-left: 0;
+    }
+
+    .description-text{
+        width: 40rem;
+        height: 75rem;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .description-text > h3{
+        padding-right: 0;
+    }
+
+    .mugs-deal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10rem;
+    }
+    
+    .template{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .four-mugs-home{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .mug-big-text{
+        font-size: 5rem;
+    }
+
+    .review-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+        margin-left: 7rem;
+    }
+
+    .review-card-box{
+        margin-bottom: 2rem;
+    }
+
+    .template{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .template{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .review-cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
 }
