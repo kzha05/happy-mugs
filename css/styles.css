@@ -42,12 +42,19 @@ header{
     align-items: center;
 }
 
-.logo{
-    height: 80%;
-    object-fit: contain;
+.logo-wrap{
     position: absolute;
+    height: 100%;
     left: 0;
     margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 100%;
+    object-fit: contain;
 }
 
 .products-tab{
@@ -166,6 +173,9 @@ a{
     overflow: hidden;
     width: 30.7rem;
     aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .four-mugs-img{
@@ -173,6 +183,11 @@ a{
     aspect-ratio: 1;
     object-fit: contain;
     object-position: center;
+    transition: width 0.2s;
+}
+
+.four-mugs-img1:hover > .four-mugs-img{
+    width: 110%;
 }
 
 .round-logo{

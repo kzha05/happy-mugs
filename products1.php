@@ -11,10 +11,12 @@
 <body>
     <section class="body-wrap">
         <header id="header">
-            <img class="logo" src="img/logo_1.webp" alt="logo">
-            <a href="index.html"> <h2>HOME</h2> </a> 
-            <a href="products.php"> <h2 class="products-tab">PRODUCTS</h2></a> 
-        </header>
+                <a class="logo-wrap" href="index.html">
+                    <img class="logo" src="img/logo_1.webp" alt="logo">
+                </a>
+                <a href="products1.php"> <h2>PRODUCTS1</h2> </a> 
+                <a href="products2.php"> <h2 class="products-tab">PRODUCTS2</h2></a> 
+            </header>
     </section>
 
         <section class="template">
