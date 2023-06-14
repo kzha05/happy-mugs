@@ -31,7 +31,7 @@ header{
     background-color: #f8e4dc;
     color: rgb(69, 69, 69);
     width: 100%;
-    height: 6rem;
+    height: 8vh;
     display: flex;
     flex-direction: row;
     z-index: 2;
@@ -262,8 +262,8 @@ a{
 
 .review-card-box{
     align-items: center;
-    width: 30rem;
-    height: 40rem;
+    width: 20vw;
+    height: 55vh;
     border-style: solid;
     border-color: black;
     border-width: 0.2rem;
@@ -305,23 +305,6 @@ a{
 .review-card-text >h3{
     margin-top: 1rem;
     width: 20rem;
-}
-
-footer{
-    background-color: #f8e4dc;
-    color: rgb(69, 69, 69);
-    width: 100%;
-    height: 5rem;
-    display: flex;
-    flex-direction: row;
-    font-size: 1.5rem;
-    justify-content: right;
-    position: relative;
-    align-items: center;
-}
-
-footer > p{
-    margin-right: 1rem;
 }
 
 .template{
@@ -628,7 +611,26 @@ footer > p{
     z-index: 10;
 }
 
-@media only screen and (max-width: 1162px){
+footer{
+    background-color: #f8e4dc;
+    color: rgb(69, 69, 69);
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content: right;
+    position: relative;
+    align-items: center;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+@media only screen and (max-width: 1163px){
         .desc{
         display: flex;
         flex-direction: column;
@@ -665,14 +667,14 @@ footer > p{
     }
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1001px){
     .four-mugs-home{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 901px){
     .mug-big-text{
         font-size: 5rem;
     }
@@ -694,7 +696,7 @@ footer > p{
     }
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 801px){
     .begin{
         display: flex;
         flex-direction: column;
@@ -729,7 +731,7 @@ footer > p{
     }
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 551px){
     .product-desc{
         margin: 0;
         padding-left: 0;
@@ -758,22 +760,31 @@ footer > p{
     }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 501px){
     .template{
         display: grid;
         grid-template-columns: 1fr;
     }
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 451px){
     .review-cards{
         display: grid;
         grid-template-columns: 1fr;
         gap: 0;
     }
 
+    .review-card-box{
+        width: 50vw;
+        height: 60vh;
+    }
     .product-block{
         width: 45rem;
         height: 20rem;
+    }
+
+    .instructions{
+        padding-left: 5vw;
+        padding-right: 5cqi;
     }
 }
