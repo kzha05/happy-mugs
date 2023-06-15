@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="javascript/main.js"></script>
+    <script src="javascript/filter1.js"></script>
     <title>happy mugs</title>
 </head>
 <body>
@@ -19,12 +19,31 @@
             </header>
     </section>
 
-        <section class="template">
-            <?php
-            include 'connect_db.php';
+    <section class="filter-wrap">
+        <div class="filter-box">
+            <input id="checkbox-foodinspired"  type="checkbox" checked class="filter">
+            <label for="checkbox-foodinspired" class="label">food inspired</label>
+        </div>
+        <div class="filter-box">
+            <input id="checkbox-animal" type="checkbox" checked class="filter">
+            <label for="checkbox-animal" class="label">animal</label>
+        </div>
+        <div class="filter-box">
+            <input id="checkbox-basic" type="checkbox" checked class="filter">
+            <label for="checkbox-basic" class="label">basic</label>
+        </div>
+        <div class="filter-box">
+            <input id="checkbox-other" type="checkbox" checked class="filter">
+            <label for="checkbox-other" class="label">other</label>
+        </div>
+    </section>
+
+    <section class="template">
+        <?php
+        include 'connect_db.php';
             
-            ?>
-        </section>
+        ?>
+    </section>
     <footer>
         <p>made by diya jawalapersad</p>
     </footer>
