@@ -167,6 +167,8 @@ a{
     align-items: center;
     gap: 3rem;
     margin-top: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 .four-mugs-img1{
@@ -332,6 +334,15 @@ a{
 .filter{
     width: 3rem;
     aspect-ratio: 1;
+    appearance: none;
+    -webkit-appearance: none;
+    background: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: inset 0 0 0.5rem 0 rgba(0,0,0,0.2);
+}
+
+.filter:checked{
+    background: #f8e4dc;
 }
 
 .card{

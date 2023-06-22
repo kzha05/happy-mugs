@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="javascript/filter1.js"></script>
+    <script src="javascript/filter1.js" defer></script>
     <title>happy mugs</title>
 </head>
 <body>
