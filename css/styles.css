@@ -790,6 +790,19 @@ footer{
         width: 50rem;
         height: 50rem;
     }
+
+    .review-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .review-card-box{
+        width: 50vw;
+        height: 60vh;
+    }
 }
 
 @media only screen and (max-width: 551px){
